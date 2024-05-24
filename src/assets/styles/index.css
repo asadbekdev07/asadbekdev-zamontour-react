@@ -438,30 +438,14 @@ select:-webkit-autofill:focus {
     width: 100%;
   }
 
-  .site-header.is-open .sitenav__item {
+  .site-header.is-open .sitenav__item,
+  .site-header.is-open .lang__item,
+  .site-header.is-open .social__item {
     width: 100%;
     margin: 0;
     padding-top: 8px;
     padding-bottom: 8px;
     border-bottom: 1px solid var(--form-border-color);
-    text-align: center;
-  }
-
-  .site-header.is-open .lang__item {
-    margin: 0;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-bottom: 1px solid var(--form-border-color);
-    width: 100%;
-    text-align: center;
-  }
-
-  .site-header.is-open .social__item {
-    margin: 0;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-bottom: 1px solid var(--form-border-color);
-    width: 100%;
     text-align: center;
   }
 
