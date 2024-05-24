@@ -404,6 +404,13 @@ select:-webkit-autofill:focus {
   color: #afafaf;
 }
 
+.lang__link.selected {
+  font-weight: bold;
+  color: #218c99;
+  text-decoration: underline;
+}
+
+
 
 @media only screen and (max-width: 900px) {
   .site-header__sitenav {
