@@ -81,7 +81,7 @@ const SiteHeader = () => {
   };
 
   return (
-    <header className={`site-header is-open ${isMenuOpen ? 'is-open' : ''}`}>
+    <header className={`site-header ${isMenuOpen ? 'is-open' : ''}`}>
       <div className="container site-header__container">
         <a className="site-header__logo-link" href="#">
           <img className='site-header__logo logo' src={zamonImg} alt="Site logo" width={159} height={41} />
