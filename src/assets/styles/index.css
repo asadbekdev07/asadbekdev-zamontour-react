@@ -441,6 +441,7 @@ select:-webkit-autofill:focus {
 }
 
 .offers__card {
+  width: 350px;
   height: 420px;
   border-radius: 8px;
   display: flex;
@@ -454,12 +455,15 @@ select:-webkit-autofill:focus {
 
 .offers__img {
   height: 300px;
-  padding-right: 200px;
+  padding-right: 150px;
   padding-bottom: 120px;
-  border-radius: 23px;
+  border-top-left-radius: 23px;
+  border-bottom-left-radius: 23px;
 }
 
 .inner {
+  position: absolute;
+  right: 1%;
   display: flex;
   flex-direction: column;
   justify-content: center;
