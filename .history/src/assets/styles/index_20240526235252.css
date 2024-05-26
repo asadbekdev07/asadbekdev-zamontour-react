@@ -1511,9 +1511,6 @@ fieldset {
     padding-left: 20px;
     padding-right: 20px;
   }
-  .site-footer__text {
-    margin: 0;
-  }
 }
 
 @media only screen and (max-width: 500px) {
