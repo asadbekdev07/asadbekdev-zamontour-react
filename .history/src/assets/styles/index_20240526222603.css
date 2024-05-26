@@ -1147,7 +1147,7 @@ location__description {
 @media only screen and (max-width: 750px) {
   .reservation {
     padding-top: 50px;
-    padding-bottom: 30px;
+    padding-bottom: 0;
   }
   .reservation__list {
     display: flex;
@@ -1318,15 +1318,6 @@ location__description {
   }
   .location__card-icon {
     margin-right: 10px;
-  }
-  .reservation__heading {
-    margin-bottom: 20px;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 45px;
-  }
-  .reservation__item {
-    max-width: 350px;
   }
 }
 

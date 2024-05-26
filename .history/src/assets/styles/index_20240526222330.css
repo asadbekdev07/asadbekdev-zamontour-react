@@ -1144,22 +1144,6 @@ location__description {
   }
 }
 
-@media only screen and (max-width: 750px) {
-  .reservation {
-    padding-top: 50px;
-    padding-bottom: 30px;
-  }
-  .reservation__list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .reservation__item:not(:last-child) {
-    margin-bottom: 10px;
-    margin-right: 0;
-  }
-}
-
 @media only screen and (min-width: 600px) and (max-width: 800px) {
   .visit__info {
     flex-direction: column;
@@ -1318,15 +1302,6 @@ location__description {
   }
   .location__card-icon {
     margin-right: 10px;
-  }
-  .reservation__heading {
-    margin-bottom: 20px;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 45px;
-  }
-  .reservation__item {
-    max-width: 350px;
   }
 }
 

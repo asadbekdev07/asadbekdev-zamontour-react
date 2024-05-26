@@ -38,11 +38,11 @@ const SiteHeader = () => {
               </li>
               {/* ITEM  */}
               <li className="sitenav__item">
-                <a className='sitenav__link' href="#tours">{t('tours')}</a>
+                <a className='sitenav__link' href="tours">{t('tours')}</a>
               </li>
               {/* ITEM  */}
               <li className="sitenav__item">
-                <a className='sitenav__link' href="#contacts">{t('contacts')}</a>
+                <a className='sitenav__link' href="contacts">{t('contacts')}</a>
               </li>
             </ul>
           </nav>

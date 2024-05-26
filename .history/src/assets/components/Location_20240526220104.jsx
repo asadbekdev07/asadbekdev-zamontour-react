@@ -33,7 +33,7 @@ const LocationCard = ({ location, isActive, onClick }) => (
 );
 
 const Location = () => {
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(null);
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 700);
 
   useEffect(() => {
