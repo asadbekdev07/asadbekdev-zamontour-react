@@ -717,10 +717,6 @@ location__description {
 }
 
 /* LOCATION  */
-.location {
-  padding-top: 15px;
-  padding-bottom: 30px;
-}
 .location__content {
   width: 70%;
   margin-left: 15%;
@@ -1019,13 +1015,6 @@ location__description {
   .visit__img {
     width: 45%;
     height: 225px;
-  }
-  .location__content {
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 30px;
-    text-align: center;
   }
   .location__card.active {
     flex-grow: 10000;

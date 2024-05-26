@@ -1,5 +1,4 @@
 import Destination from "./Destination"
-import Location from "./Location"
 import Offers from "./Offers"
 import SiteHeader from "./Site-header"
 import SliderHero from "./Slider-hero"

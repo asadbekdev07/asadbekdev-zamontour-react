@@ -717,10 +717,6 @@ location__description {
 }
 
 /* LOCATION  */
-.location {
-  padding-top: 15px;
-  padding-bottom: 30px;
-}
 .location__content {
   width: 70%;
   margin-left: 15%;
@@ -1020,13 +1016,6 @@ location__description {
     width: 45%;
     height: 225px;
   }
-  .location__content {
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 30px;
-    text-align: center;
-  }
   .location__card.active {
     flex-grow: 10000;
     transform: scale(1);
@@ -1288,16 +1277,7 @@ location__description {
     width: 30px;
     height: 30px;
     margin-right: 8px;
-    margin-left: -13px;
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  .location__card-icon {
-    width: 30px;
-    height: 30px;
-    margin-right: 8px;
-    margin-left: -16px;
+    margin-left: -8px;
   }
 }
 

@@ -1020,13 +1020,6 @@ location__description {
     width: 45%;
     height: 225px;
   }
-  .location__content {
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 30px;
-    text-align: center;
-  }
   .location__card.active {
     flex-grow: 10000;
     transform: scale(1);
