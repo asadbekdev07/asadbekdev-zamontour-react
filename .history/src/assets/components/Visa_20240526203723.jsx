@@ -24,7 +24,7 @@ const offersData = [
 
 const Visa = () => {
   return (
-    <div className="visa" id='about'>
+    <div className="visa" id='#'>
       <div className="container">
         <div className="visa__content">
           <h2 className="visa__title">Visa Support</h2>
