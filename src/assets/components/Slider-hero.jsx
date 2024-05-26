@@ -7,10 +7,10 @@ import 'swiper/css/navigation';
 
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
-import istanbulImg from '../../../public/img/istanbul.jpg';
-import antalyaImg from '../../../public/img/antalya.jpg';
-import dubaiImg from '../../../public/img/dubai2.jpg';
-import sharmImg from '../../../public/img/sharm.jpg';
+import istanbulImg from '/img/istanbul.jpg';
+import antalyaImg from '/img/antalya.jpg';
+import dubaiImg from '/img/dubai2.jpg';
+import sharmImg from '/img/sharm.jpg';
 
 const slidesData = [
   {

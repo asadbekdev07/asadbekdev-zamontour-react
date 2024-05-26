@@ -69,10 +69,11 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
+  font-weight: 400;
   font-family: "Poppins", "Arial", sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   background-color: #ffffff;
-  color: #222222;
+  color: var(--grayish-text-color);
 }
 
 img {
@@ -344,7 +345,7 @@ select:-webkit-autofill:focus {
   margin-bottom: 20px;
   font-weight: 500;
   font-size: 20px;
-  color: #ffffff;
+  color: var(--primary-bg-color);
 }
 
 .slider__top-city {
@@ -352,7 +353,7 @@ select:-webkit-autofill:focus {
   margin-bottom: 30px;
   font-weight: 700;
   font-size: 50px;
-  color: #ffffff;
+  color: var(--primary-bg-color);
 }
 
 .slider__bottom {
@@ -369,7 +370,7 @@ select:-webkit-autofill:focus {
   align-items: center;
   justify-content: space-between;
   border-radius: 60px;
-  background-color: #ffffff;
+  background-color: var(--primary-bg-color);
 }
 
 .list__item-inner {
@@ -387,8 +388,8 @@ select:-webkit-autofill:focus {
   line-height: 50px;
   font-size: 25px;
   text-align: center;
-  border: 1px solid #22b3c1;
-  color: #22b3c1;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
 }
 
 .list__subheading {
@@ -396,20 +397,170 @@ select:-webkit-autofill:focus {
   font-weight: 700;
   font-size: 20px;
   line-height: 28px;
-  color: #22b3c1;
+  color: var(--primary-color);
 }
 .list__subheading span {
   font-weight: 400;
   font-size: 15px;
-  color: #afafaf;
+  color: var(--grayish-text-color);
 }
 
 .lang__link.selected {
   font-weight: bold;
-  color: #218c99;
+  color: var(--primary-color);
   text-decoration: underline;
 }
 
+/* OFFERS  */
+.offers {
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.offers__content {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.offers__title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: capitalize;
+  color: var(--secondary-text-color);
+}
+
+.offers__description {
+  line-height: 30px;
+}
+
+.offers__card {
+  height: 420px;
+  border-radius: 8px;
+  display: flex;
+  cursor: pointer;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.offers__img {
+  height: 300px;
+  padding-right: 200px;
+  padding-bottom: 120px;
+  border-radius: 23px;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  z-index: 10000;
+  width: 250px;
+  padding: 25px;
+  border-radius: 23px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  background-color: var(--primary-bg-color);
+}
+
+.inner__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  position: relative;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.inner__top h4 {
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--secondary-text-color);
+  margin: 0;
+}
+
+.inner__top h6 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--primary-color);
+}
+.inner__top span {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.inner__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.inner__list li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.inner__list li:not(:first-child) {
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--grayish-text-color);
+}
+
+.inner__list-title {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--secondary-text-color);
+}
+
+.swiper-buttons {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 42%;
+  bottom: 10%; /* Adjust as needed */
+  width: 15%;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: 1px solid var(--primary-color);
+  background-color: var(--primary-bg-color);
+  color: var(--primary-color);
+  text-align: center;
+  line-height: 44px;
+  cursor: pointer;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+  margin: 0 15px;
+  font-size: 20px;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: var(--primary-color);
+  color: var(--primary-bg-color);
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 20px; /* Custom size for the arrow icons */
+}
 
 
 @media only screen and (max-width: 900px) {
