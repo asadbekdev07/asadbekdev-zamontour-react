@@ -889,14 +889,12 @@ select:-webkit-autofill:focus {
     width: 45%;
     height: 225px;
   }
-}
-
-@media only screen and (min-width: 600px) and (max-width: 800px) {
   .visit__info {
     flex-direction: column;
     align-items: flex-start;
   }
 }
+
 @media only screen and (min-width: 500px) and (max-width: 700px) {
   .offers__img,
   .visa__img {
@@ -1030,7 +1028,8 @@ select:-webkit-autofill:focus {
   }
   .visit__info {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: flex-start;
     margin-bottom: 15px;
   }
 }

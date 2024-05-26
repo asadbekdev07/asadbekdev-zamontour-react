@@ -1030,7 +1030,8 @@ select:-webkit-autofill:focus {
   }
   .visit__info {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: flex-start;
     margin-bottom: 15px;
   }
 }
