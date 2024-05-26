@@ -446,7 +446,6 @@ select:-webkit-autofill:focus {
   border-radius: 8px;
   display: flex;
   cursor: pointer;
-  width: 80%;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -544,7 +543,7 @@ select:-webkit-autofill:focus {
   width: 46px;
   height: 46px;
   border-radius: 50%;
-  border: 1px solid var(--primary-color);
+  border: 1.5px solid var(--primary-color);
   background-color: var(--primary-bg-color);
   color: var(--primary-color);
   text-align: center;
@@ -566,6 +565,47 @@ select:-webkit-autofill:focus {
   font-size: 20px; /* Custom size for the arrow icons */
 }
 
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+  .offers__card {
+    width: 30%;
+  }
+
+  .offers__img {
+    height: 300px;
+    padding-right: 85px;
+    padding-bottom: 120px;
+  }
+
+  .inner {
+    width: 210px;
+    padding: 21px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .offers__card {
+    width: 45%;
+  }
+
+  .offers__img {
+    height: 300px;
+    padding-right: 60px;
+    padding-bottom: 120px;
+  }
+
+  .inner {
+    width: 225px;
+    padding: 25px;
+  }
+
+  .swiper-buttons {
+    left: 45%;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    margin: 0 0;
+  }
+}
 
 @media only screen and (max-width: 900px) {
   .site-header__sitenav {
@@ -662,6 +702,11 @@ select:-webkit-autofill:focus {
     font-weight: 700;
     font-size: 40px;
   }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    margin: 0 -8px;
+  }
 }
 
 @media only screen and (max-width: 700px) {
@@ -684,6 +729,13 @@ select:-webkit-autofill:focus {
   }
   .list__subheading span {
     font-size: 10px;
+  }
+  .offers__img {
+    width: 300px;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    margin: 0 -12px;
   }
 }
 
@@ -731,6 +783,10 @@ select:-webkit-autofill:focus {
   .list__subheading span {
     font-size: 8px;
   }
+  .swiper-button-next,
+  .swiper-button-prev {
+    margin: 0 -20px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -768,6 +824,13 @@ select:-webkit-autofill:focus {
   }
   .list__subheading span {
     font-size: 5px;
+  }
+  .offers__img {
+    width: 230px;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    margin: 0 -35px;
   }
 }
 
