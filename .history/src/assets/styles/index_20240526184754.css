@@ -928,9 +928,6 @@ select:-webkit-autofill:focus {
   .destination__inner-description {
     margin-bottom: 15px;
   }
-  .destination__responsive-button {
-    display: block;
-  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -975,15 +972,6 @@ select:-webkit-autofill:focus {
   .swiper-button-next,
   .swiper-button-prev {
     margin: 0 -35px;
-  }
-  .destination {
-    padding-top: 60px;
-  }
-
-  .destination__top-heading {
-    font-size: 25px;
-    line-height: 30px;
-    margin-bottom: 15px;
   }
 }
 

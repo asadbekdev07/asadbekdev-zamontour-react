@@ -652,10 +652,6 @@ select:-webkit-autofill:focus {
   line-height: 30px;
 }
 
-.destination__responsive-button {
-  display: none;
-}
-
 @media only screen and (min-width: 1000px) and (max-width: 1200px) {
   .offers__card {
     width: 30%;
@@ -699,22 +695,11 @@ select:-webkit-autofill:focus {
 }
 
 @media only screen and (max-width: 1000px) {
-  .destination {
-    padding-left: 0;
-    padding-right: 0;
-  }
   .destination__img {
-    width: 90%;
-    margin-right: 0;
-    margin-bottom: 20px;
+    width: 100%;
   }
-  .destination__inner {
-    width: 90%;
-  }
-  .destination__item {
-    display: flex;
+  .destination__list {
     flex-direction: column;
-    align-items: center;
   }
 }
 
@@ -922,15 +907,6 @@ select:-webkit-autofill:focus {
   .swiper-button-prev {
     margin: 0 -20px;
   }
-  .destination__button {
-    display: none;
-  }
-  .destination__inner-description {
-    margin-bottom: 15px;
-  }
-  .destination__responsive-button {
-    display: block;
-  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -975,15 +951,6 @@ select:-webkit-autofill:focus {
   .swiper-button-next,
   .swiper-button-prev {
     margin: 0 -35px;
-  }
-  .destination {
-    padding-top: 60px;
-  }
-
-  .destination__top-heading {
-    font-size: 25px;
-    line-height: 30px;
-    margin-bottom: 15px;
   }
 }
 

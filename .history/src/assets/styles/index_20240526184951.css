@@ -976,10 +976,6 @@ select:-webkit-autofill:focus {
   .swiper-button-prev {
     margin: 0 -35px;
   }
-  .destination {
-    padding-top: 60px;
-  }
-
   .destination__top-heading {
     font-size: 25px;
     line-height: 30px;

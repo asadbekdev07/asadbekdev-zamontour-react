@@ -582,13 +582,13 @@ select:-webkit-autofill:focus {
   padding: 40px;
 }
 
-.destination__top {
+.destination__content {
   width: 100%;
   max-width: 450px;
   margin-bottom: 65px;
 }
 
-.destination__top-heading {
+.destination__heading {
   margin: 0;
   margin-bottom: 20px;
   font-weight: 700;
@@ -597,63 +597,9 @@ select:-webkit-autofill:focus {
   color: #2a2a2a;
 }
 
-.destination__top-description {
+.destination__description {
   margin: 0;
   line-height: 30px;
-}
-
-.destination__list {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-.destination__item {
-  display: flex;
-}
-.destination__item:not(:last-child) {
-  padding-bottom: 30px;
-  margin-bottom: 30px;
-  border-bottom: 1px solid #eeeeee;
-}
-
-.destination__img {
-  margin-right: 24px;
-  border-radius: 20px;
-}
-
-.destination__inner {
-  width: 75%;
-  position: relative;
-}
-
-.destination__inner-heading {
-  margin: 0;
-  margin-bottom: 6px;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
-  color: #2a2a2a;
-}
-
-.destination__inner-span {
-  line-height: 30px;
-}
-
-.button__wrapper {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.destination__inner-description {
-  margin: 0;
-  margin-top: 20px;
-  line-height: 30px;
-}
-
-.destination__responsive-button {
-  display: none;
 }
 
 @media only screen and (min-width: 1000px) and (max-width: 1200px) {
@@ -695,26 +641,6 @@ select:-webkit-autofill:focus {
   .swiper-button-next,
   .swiper-button-prev {
     margin: 0 0;
-  }
-}
-
-@media only screen and (max-width: 1000px) {
-  .destination {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .destination__img {
-    width: 90%;
-    margin-right: 0;
-    margin-bottom: 20px;
-  }
-  .destination__inner {
-    width: 90%;
-  }
-  .destination__item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
 }
 
@@ -922,15 +848,6 @@ select:-webkit-autofill:focus {
   .swiper-button-prev {
     margin: 0 -20px;
   }
-  .destination__button {
-    display: none;
-  }
-  .destination__inner-description {
-    margin-bottom: 15px;
-  }
-  .destination__responsive-button {
-    display: block;
-  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -975,15 +892,6 @@ select:-webkit-autofill:focus {
   .swiper-button-next,
   .swiper-button-prev {
     margin: 0 -35px;
-  }
-  .destination {
-    padding-top: 60px;
-  }
-
-  .destination__top-heading {
-    font-size: 25px;
-    line-height: 30px;
-    margin-bottom: 15px;
   }
 }
 
