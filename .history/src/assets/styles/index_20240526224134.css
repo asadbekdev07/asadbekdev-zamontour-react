@@ -947,9 +947,6 @@ location__description {
 }
 
 /* MAP  */
-.map {
-  padding-top: 30px;
-}
 .map__container {
   position: relative;
   width: 100%;
@@ -957,7 +954,7 @@ location__description {
 
 .map__responsive-wrapper {
   position: relative;
-  padding-top: 56.25%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
   height: 0;
   overflow: hidden;
 }
@@ -970,6 +967,13 @@ location__description {
   height: 100%;
   border-top-left-radius: 23px;
   border-top-right-radius: 23px;
+}
+
+@media (max-width: 576px) {
+  .map__iframe {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
 }
 
 

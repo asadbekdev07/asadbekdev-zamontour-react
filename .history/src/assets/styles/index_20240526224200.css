@@ -947,9 +947,6 @@ location__description {
 }
 
 /* MAP  */
-.map {
-  padding-top: 30px;
-}
 .map__container {
   position: relative;
   width: 100%;
