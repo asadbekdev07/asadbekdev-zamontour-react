@@ -1320,9 +1320,6 @@ fieldset {
   .form__field {
     margin-bottom: 15px;
   }
-  .form__flex-grow {
-    width: 100%;
-  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -1428,10 +1425,6 @@ fieldset {
   }
   .reservation__item {
     max-width: 350px;
-  }
-  .forms__container {
-    padding-left: 20px;
-    padding-right: 20px;
   }
 }
 

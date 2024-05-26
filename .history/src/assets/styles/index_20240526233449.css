@@ -1429,10 +1429,6 @@ fieldset {
   .reservation__item {
     max-width: 350px;
   }
-  .forms__container {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
 }
 
 @media only screen and (max-width: 500px) {

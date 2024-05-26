@@ -1304,25 +1304,6 @@ fieldset {
     padding-left: 0;
     padding-right: 0;
   }
-  .forms__container {
-    padding: 30px 80px;
-  }
-  .form__heading {
-    margin-top: 0;
-    margin-bottom: 30px;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 26px;
-  }
-  .form__flex {
-    flex-direction: column;
-  }
-  .form__field {
-    margin-bottom: 15px;
-  }
-  .form__flex-grow {
-    width: 100%;
-  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -1428,10 +1409,6 @@ fieldset {
   }
   .reservation__item {
     max-width: 350px;
-  }
-  .forms__container {
-    padding-left: 20px;
-    padding-right: 20px;
   }
 }
 
