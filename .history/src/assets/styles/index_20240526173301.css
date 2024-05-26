@@ -755,8 +755,6 @@ select:-webkit-autofill:focus {
   }
   .offers__content {
     width: 90%;
-    margin-left: 5px;
-    margin-right: 5px;
   }
   .offers__title,
   .visa__title {

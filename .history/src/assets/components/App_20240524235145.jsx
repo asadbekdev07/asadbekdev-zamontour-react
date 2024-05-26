@@ -1,7 +1,6 @@
 import Offers from "./Offers"
 import SiteHeader from "./Site-header"
 import SliderHero from "./Slider-hero"
-import Visa from "./Visa"
 
 function App() {
 
@@ -10,7 +9,6 @@ function App() {
       <SiteHeader />
       <SliderHero />
       <Offers />
-      <Visa />
     </>
   )
 }

@@ -457,8 +457,7 @@ select:-webkit-autofill:focus {
   position: relative;
 }
 
-.offers__img,
-.visa__img {
+.offers__img {
   height: 300px;
   padding-right: 150px;
   padding-bottom: 120px;
@@ -469,7 +468,11 @@ select:-webkit-autofill:focus {
 
 .visa__img {
   width: 50%;
-  object-fit: cover;
+  height: 300px;
+  padding-right: 150px;
+  padding-bottom: 120px;
+  border-top-left-radius: 23px;
+  border-bottom-left-radius: 23px;
 }
 
 .inner {
@@ -721,17 +724,6 @@ select:-webkit-autofill:focus {
   }
 }
 
-@media only screen and (min-width: 500px) and (max-width: 700px) {
-  .offers__img,
-  .visa__img {
-    padding-right: 120px;
-  }
-  .inner {
-    width: 275px;
-    margin-right: 30px;
-  }
-}
-
 @media only screen and (max-width: 700px) {
   .list {
     padding: 20px 40px;
@@ -752,19 +744,6 @@ select:-webkit-autofill:focus {
   }
   .list__subheading span {
     font-size: 10px;
-  }
-  .offers__content {
-    width: 90%;
-    margin-left: 5px;
-    margin-right: 5px;
-  }
-  .offers__title,
-  .visa__title {
-    font-size: 25px;
-  }
-  .offers__description,
-  .visa__description {
-    line-height: 25px;
   }
   .offers__img {
     width: 300px;

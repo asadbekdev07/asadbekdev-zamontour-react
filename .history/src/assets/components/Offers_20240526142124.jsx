@@ -59,7 +59,7 @@ const Offers = () => {
               <img className='offers__img' src={offer.img} alt={`${offer.city} img`} />
               <div className="offers__card-inner inner">
                 <div className="inner__top">
-                  <h4>{offer.city}<br/><span><i className="fa fa-users"></i> {offer.checkIns} Check Ins</span></h4>
+                  <h4>{offer.city}<br/><span><i className="fa fa-users ins"></i> {offer.checkIns} Check Ins</span></h4>
                   {offer.price && <h6>${offer.price}<br/><span>/person</span></h6>}
                 </div>
                 <hr className='inner__divider' />

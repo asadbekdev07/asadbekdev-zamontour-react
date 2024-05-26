@@ -721,17 +721,6 @@ select:-webkit-autofill:focus {
   }
 }
 
-@media only screen and (min-width: 500px) and (max-width: 700px) {
-  .offers__img,
-  .visa__img {
-    padding-right: 120px;
-  }
-  .inner {
-    width: 275px;
-    margin-right: 30px;
-  }
-}
-
 @media only screen and (max-width: 700px) {
   .list {
     padding: 20px 40px;
@@ -752,19 +741,6 @@ select:-webkit-autofill:focus {
   }
   .list__subheading span {
     font-size: 10px;
-  }
-  .offers__content {
-    width: 90%;
-    margin-left: 5px;
-    margin-right: 5px;
-  }
-  .offers__title,
-  .visa__title {
-    font-size: 25px;
-  }
-  .offers__description,
-  .visa__description {
-    line-height: 25px;
   }
   .offers__img {
     width: 300px;

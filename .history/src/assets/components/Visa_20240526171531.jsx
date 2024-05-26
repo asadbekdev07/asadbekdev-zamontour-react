@@ -3,27 +3,26 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 
-import offersFirst from '/img/deals-04.jpg';
-import offersSecond from '/img/offers-02.jpg';
-import offersThird from '/img/deals-01.jpg';
-import offersFourth from '/img/offers-01.jpg';
-import usa from '/img/usa1.jpg';
-import england from '/img/deals-02.jpg';
+import china from '/img/china.jpg';
+import hongkong from '/img/hongkong.jpg';
+import europe from '/img/europe.jpg';
+import india from '/img/india.jpg';
+import japan from '/img/japan.jpg';
+import saudi from '/img/saudi.jpg';
 import canada from '/img/cand.jpg';
 import europe from '/img/europe2.jpg';
 
 const offersData = [
-  { img: offersFirst, city: "Istanbul", checkIns: 234, price: 420 },
-  { img: offersSecond, city: "Dubai", checkIns: 300, price: 700 },
-  { img: offersThird, city: "Antalya", checkIns: 500, price: 999 },
-  { img: offersFourth, city: "Sharm El-Sheikh", checkIns: 200, price: 800 },
-  { img: usa, city: "USA", checkIns: 400, price: null },
-  { img: england, city: "England", checkIns: 234, price: null },
-  { img: canada, city: "Canada", checkIns: 345, price: null },
-  { img: europe, city: "European Union", checkIns: 345, price: null }
+  { img: china, city: "China", checkIns: 274},
+  { img: hongkong, city: "Hong Kong", checkIns: 350},
+  { img: europe, city: "European (Schengen)", checkIns: 453},
+  { img: india, city: "India", checkIns: 220},
+  { img: japan, city: "Japan", checkIns: 442 },
+  { img: saudi, city: "Saudia Arabia", checkIns: 424 },
+  { img: canada, city: "Oman", checkIns: 389 }
 ];
 
-const Offers = () => {
+const Visa = () => {
   return (
     <div className="offers">
       <div className="container">
@@ -59,15 +58,14 @@ const Offers = () => {
               <img className='offers__img' src={offer.img} alt={`${offer.city} img`} />
               <div className="offers__card-inner inner">
                 <div className="inner__top">
-                  <h4>{offer.city}<br/><span><i className="fa fa-users"></i> {offer.checkIns} Check Ins</span></h4>
-                  {offer.price && <h6>${offer.price}<br/><span>/person</span></h6>}
+                  <h4>{offer.city}<br/><span><i className="fa fa-users ins"></i> {offer.checkIns} Check Ins</span></h4>
                 </div>
                 <hr className='inner__divider' />
                 <ul className='inner__list'>
-                  <li className="inner__list-title">Deal Includes:</li>
-                  <li><i className="fa fa-taxi"></i> 5 Days Trip, Hotel Included</li>
-                  <li><i className="fa fa-plane"></i> Airplane Bill Included</li>
-                  <li><i className="fa fa-building"></i> Daily Places Visit</li>
+                  <li className="inner__list-title">Benefits of our Visa Support service:</li>
+                  <li><i className="fa fa-tags"></i> Best Prices</li>
+                  <li><i className="fa fa-clock"></i> Short Processing Time</li>
+                  <li><i className="fa fa-check"></i> Trustworthy Assistance</li>
                 </ul>
                 <a className="button button--wrapper" href="#contact">Make a Reservation</a>
               </div>
@@ -83,4 +81,4 @@ const Offers = () => {
   );
 };
 
-export default Offers;
+export default Visa;

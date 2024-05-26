@@ -753,18 +753,13 @@ select:-webkit-autofill:focus {
   .list__subheading span {
     font-size: 10px;
   }
-  .offers__content {
-    width: 90%;
-    margin-left: 5px;
-    margin-right: 5px;
-  }
   .offers__title,
   .visa__title {
     font-size: 25px;
   }
   .offers__description,
   .visa__description {
-    line-height: 25px;
+    line-height: 20px;
   }
   .offers__img {
     width: 300px;
