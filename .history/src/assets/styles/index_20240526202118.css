@@ -944,10 +944,6 @@ select:-webkit-autofill:focus {
   .swiper-button-prev {
     margin: 0 -12px;
   }
-  .visit {
-    padding-left: 0;
-    padding-right: 0;
-  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -1009,7 +1005,6 @@ select:-webkit-autofill:focus {
   }
   .visit__item {
     flex-direction: column;
-    padding-bottom: 15px;
   }
   .visit__img {
     width: 100%;
@@ -1075,14 +1070,10 @@ select:-webkit-autofill:focus {
     padding-top: 60px;
   }
 
-  .destination__top-heading,
-  .visit__heading {
+  .destination__top-heading {
     font-size: 25px;
     line-height: 30px;
     margin-bottom: 15px;
-  }
-  .visit__content {
-    margin-bottom: 40px;
   }
 }
 

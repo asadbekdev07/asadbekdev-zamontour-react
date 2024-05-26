@@ -633,8 +633,7 @@ select:-webkit-autofill:focus {
   position: relative;
 }
 
-.destination__inner-heading,
-.visit__inner-heading {
+.destination__inner-heading {
   margin: 0;
   margin-bottom: 6px;
   font-weight: 700;
@@ -691,9 +690,25 @@ select:-webkit-autofill:focus {
   position: relative;
 }
 
+.visit__inner-heading {
+  margin: 0;
+  margin-bottom: 6px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2a2a2a;
+}
+
 .visit__inner-span {
   line-height: 30px;
 }
+
+.button__wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 .visit__inner-description {
   margin: 0;
   margin-top: 20px;
@@ -850,12 +865,6 @@ select:-webkit-autofill:focus {
   }
 }
 
-@media only screen and (max-width: 850px) {
-  .button__wrapper--visit {
-    display: none;
-  }
-}
-
 @media only screen and (max-width: 800px) {
   .button {
     padding: 10px 20px;
@@ -881,14 +890,6 @@ select:-webkit-autofill:focus {
   .swiper-button-next,
   .swiper-button-prev {
     margin: 0 -8px;
-  }
-  .visit__img {
-    width: 45%;
-    height: 225px;
-  }
-  .visit__info {
-    flex-direction: column;
-    align-items: flex-start;
   }
 }
 
@@ -943,10 +944,6 @@ select:-webkit-autofill:focus {
   .swiper-button-next,
   .swiper-button-prev {
     margin: 0 -12px;
-  }
-  .visit {
-    padding-left: 0;
-    padding-right: 0;
   }
 }
 
@@ -1007,25 +1004,6 @@ select:-webkit-autofill:focus {
   .destination__responsive-button {
     display: block;
   }
-  .visit__item {
-    flex-direction: column;
-    padding-bottom: 15px;
-  }
-  .visit__img {
-    width: 100%;
-    margin-right: 0;
-    margin-bottom: 20px;
-  }
-  .visit__inner {
-    width: 100%;
-  }
-  .visit__inner-description {
-    width: 100%;
-    margin-top: 10px;
-  }
-  .visit__info {
-    margin-bottom: 15px;
-  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -1075,14 +1053,10 @@ select:-webkit-autofill:focus {
     padding-top: 60px;
   }
 
-  .destination__top-heading,
-  .visit__heading {
+  .destination__top-heading {
     font-size: 25px;
     line-height: 30px;
     margin-bottom: 15px;
-  }
-  .visit__content {
-    margin-bottom: 40px;
   }
 }
 

@@ -883,7 +883,7 @@ select:-webkit-autofill:focus {
     margin: 0 -8px;
   }
   .visit__img {
-    width: 45%;
+    width: 40%;
     height: 225px;
   }
   .visit__info {
@@ -943,10 +943,6 @@ select:-webkit-autofill:focus {
   .swiper-button-next,
   .swiper-button-prev {
     margin: 0 -12px;
-  }
-  .visit {
-    padding-left: 0;
-    padding-right: 0;
   }
 }
 
@@ -1009,22 +1005,16 @@ select:-webkit-autofill:focus {
   }
   .visit__item {
     flex-direction: column;
-    padding-bottom: 15px;
   }
   .visit__img {
-    width: 100%;
-    margin-right: 0;
+    width: 80%;
     margin-bottom: 20px;
   }
   .visit__inner {
-    width: 100%;
+    width: 80%;
   }
   .visit__inner-description {
-    width: 100%;
     margin-top: 10px;
-  }
-  .visit__info {
-    margin-bottom: 15px;
   }
 }
 
@@ -1075,14 +1065,10 @@ select:-webkit-autofill:focus {
     padding-top: 60px;
   }
 
-  .destination__top-heading,
-  .visit__heading {
+  .destination__top-heading {
     font-size: 25px;
     line-height: 30px;
     margin-bottom: 15px;
-  }
-  .visit__content {
-    margin-bottom: 40px;
   }
 }
 

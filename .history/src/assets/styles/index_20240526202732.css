@@ -1081,9 +1081,9 @@ select:-webkit-autofill:focus {
     line-height: 30px;
     margin-bottom: 15px;
   }
-  .visit__content {
-    margin-bottom: 40px;
-  }
+  /* .visit__heading {
+    mb40
+  } */
 }
 
 @media
