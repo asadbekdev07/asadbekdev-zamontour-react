@@ -30,7 +30,7 @@
     "15.5m": "Population: 15.5 million",
     "0.07m": "Population: 0.07 million",
     "2.2m": "Population: 2.2 million"
-  },
+  }
   "territory": "Territory:",
   "avgpr": "Avg Price:",
   "exploremore": "Explore More",
@@ -68,11 +68,5 @@
   "visitheading": "Visit One Of Our Countries Now",
   "visitdesc": "Discover the best offers in each city, curated just for you. Immerse yourself in a world of savings and indulge in unparalleled experiences.",
   "bestlocation": "Best Locations",
-  "bestlocationdesc": "Discover the best offers in each city, curated just for you. Immerse yourself in a world of savings and indulge in unparalleled experiences.",
-  "makephonecall": "Make a Phone Call",
-  "contactviaemail": "Contact Us via Email",
-  "visitouroffices": "Visit Our Offices",
-  "address": "15/25, Chilanzar - 9, Tashkent",
-  "bookprefereddeal": "Book Preferred Deal Here",
-  "makeyourreservation": "Make your reservation"
+  "bestlocationdesc": "Discover the best offers in each city, curated just for you. Immerse yourself in a world of savings and indulge in unparalleled experiences."
 }

@@ -4,7 +4,15 @@ import antalya from "/img/antalya.jpg";
 import istanbul from "/img/istanbul.jpg";
 import sharm from "/img/sharm.jpg";
 import paris from "/img/paris.jpg";
-import { useLocalization } from '../../localization';
+import { useTra }
+
+const locations = [
+  { name: 'Dubai', image: dubai, population: '3.3 million' },
+  { name: 'Antalya', image: antalya, population: '1.5 million' },
+  { name: 'Istanbul', image: istanbul, population: '15.5 million' },
+  { name: 'Sharm El-Sheik', image: sharm, population: '0.07 million' },
+  { name: 'Paris', image: paris, population: '2.2 million' }
+];
 
 const LocationCard = ({ location, isActive, onClick }) => (
   <div
@@ -19,7 +27,7 @@ const LocationCard = ({ location, isActive, onClick }) => (
       </div>
       <div className="location__card-info">
         <div className="location__card-title">{location.name}</div>
-        <div className="location__card-text">{location.population}</div>
+        <div className="location__card-text">Population: {location.population}</div>
       </div>
     </div>
   </div>
@@ -28,16 +36,6 @@ const LocationCard = ({ location, isActive, onClick }) => (
 const Location = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 700);
-
-  const { t } = useLocalization();
-
-  const locations = [
-    { name: t('city.1'), image: dubai, population: t('population.3.3m') },
-    { name: t('city.2'), image: antalya, population: t('population.1.5m') },
-    { name: t('city.1'), image: istanbul, population: t('population.15.5m') },
-    { name: t('city.3'), image: sharm, population: t('population.0.07m') },
-    { name: t('city.8'), image: paris, population: t('population.2.2m') }
-  ];
 
   useEffect(() => {
     const handleResize = () => {
@@ -50,12 +48,14 @@ const Location = () => {
 
   const visibleLocations = isMobile ? locations.slice(0, 3) : locations;
 
+  const { t } = useLocalization();
+
   return (
     <section className="location">
       <div className="container">
         <div className="location__content">
-          <h2 className="location__heading">{t('bestlocation')}</h2>
-          <p className="location__description">{t('bestlocationdesc')}</p>
+          <h2 className="location__heading">Best Locations</h2>
+          <p className="location__description">Discover the best offers in each city, curated just for you. Immerse yourself in a world of savings and indulge in unparalleled experiences.</p>
         </div>
 
         <div className="location__cards">

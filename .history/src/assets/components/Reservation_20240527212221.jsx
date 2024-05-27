@@ -41,7 +41,7 @@ const Reservation = () => {
         <div className="reservation__content">
           <h4 className="reservation__title" id="contact">{t('bookprefereddeal')}</h4>
           <h2 className="reservation__heading">{t('makeyourreservation')}</h2>
-          <a className="button button--white" href="#contact">{t('exploremore')}</a>
+          <a className="button button--white" href="#contact">{t('discovermore')}</a>
         </div>
         <ul className="reservation__list">
           {reservationItems.map((item, index) => (

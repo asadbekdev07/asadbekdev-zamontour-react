@@ -59,7 +59,7 @@ const SlideContent = ({ img, city, population, territory, avgPrice, t, cityKey }
             <div className="list__item-inner">
               <i className="fa fa-user"></i>
               <h4 className="list__subheading">
-                <span>{t('population.population')}</span><br />{population}
+                <span>{t('population')}</span><br />{population}
               </h4>
             </div>
           </li>

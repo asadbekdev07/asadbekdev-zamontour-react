@@ -13,7 +13,6 @@
   "city.5": "England",
   "city.6": "Canada",
   "city.7": "European Union",
-  "city.8": "Paris",
   "weeklyoff": "Best Weekly Offers In Each City",
   "weeklyoffdesc": "Discover the best weekly offers in each city, curated just for you. Immerse yourself in a world of savings and indulge in unparalleled experiences.",
   "checkins": "Check Ins",
@@ -23,14 +22,7 @@
   "inc2": "Airplane Bill Included",
   "inc3": "Daily Places Visit",
   "makeres": "Make a Reservation",
-  "population": {
-    "population": "Population:",
-    "3.3m": "Population: 3.3 million",
-    "1.5m": "Population: 1.5 million",
-    "15.5m": "Population: 15.5 million",
-    "0.07m": "Population: 0.07 million",
-    "2.2m": "Population: 2.2 million"
-  },
+  "population": "Population:",
   "territory": "Territory:",
   "avgpr": "Avg Price:",
   "exploremore": "Explore More",
@@ -65,14 +57,5 @@
   "million": "million",
   "km": "km²",
   "direction": "Need Directions?",
-  "visitheading": "Visit One Of Our Countries Now",
-  "visitdesc": "Discover the best offers in each city, curated just for you. Immerse yourself in a world of savings and indulge in unparalleled experiences.",
-  "bestlocation": "Best Locations",
-  "bestlocationdesc": "Discover the best offers in each city, curated just for you. Immerse yourself in a world of savings and indulge in unparalleled experiences.",
-  "makephonecall": "Make a Phone Call",
-  "contactviaemail": "Contact Us via Email",
-  "visitouroffices": "Visit Our Offices",
-  "address": "15/25, Chilanzar - 9, Tashkent",
-  "bookprefereddeal": "Book Preferred Deal Here",
-  "makeyourreservation": "Make your reservation"
+  "visitheading": ""
 }

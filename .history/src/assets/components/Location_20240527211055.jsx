@@ -34,9 +34,9 @@ const Location = () => {
   const locations = [
     { name: t('city.1'), image: dubai, population: t('population.3.3m') },
     { name: t('city.2'), image: antalya, population: t('population.1.5m') },
-    { name: t('city.1'), image: istanbul, population: t('population.15.5m') },
+    { name: t('city.istanbul'), image: istanbul, population: t('population.15.5m') },
     { name: t('city.3'), image: sharm, population: t('population.0.07m') },
-    { name: t('city.8'), image: paris, population: t('population.2.2m') }
+    { name: t('city.paris'), image: paris, population: t('population.2.2m') }
   ];
 
   useEffect(() => {

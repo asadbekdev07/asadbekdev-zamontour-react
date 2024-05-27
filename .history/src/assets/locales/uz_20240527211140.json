@@ -23,14 +23,7 @@
   "inc2": "Aviabilet",
   "inc3": "Eng yaxshi manzillar",
   "makeres": "Joy band qilish",
-  "population": {
-    "population": "Aholisi:",
-    "3.3m": "Aholisi: 3,3 million",
-    "1.5m": "Aholisi: 1,5 million",
-    "15.5m": "Aholisi: 15,5 million",
-    "0.07m": "Aholisi: 0,07 million",
-    "2.2m": "Aholisi: 2,2 million"
-  },
+  "population": "Aholisi:",
   "territory": "Maydoni:",
   "avgpr": "O'rtacha narxi:",
   "exploremore": "Batafsil",
@@ -68,11 +61,5 @@
   "visitheading": "Shaharlardan Biriga Hoziroq Tashrif Buyuring",
   "visitdesc": "Har bir shahardagi eng yaxshi takliflarimizni kashf eting, faqat siz uchun. O'zingiz uchun yangi dunyosni oching va misli ko'rilmagan sarguzashtlar ega bo'ling.",
   "bestlocation": "Eng Yaxshi Manzillar",
-  "bestlocationdesc": "Har bir shahardagi eng yaxshi takliflarimizni kashf eting, faqat siz uchun. O'zingiz uchun yangi dunyosni oching va misli ko'rilmagan sarguzashtlar ega bo'ling.",
-  "makephonecall": "Telefon raqam",
-  "contactviaemail": "Email orqali bog'laning",
-  "visitouroffices": "Ofisimizga tashrif buyuring",
-  "address": "15/25, Chilanzar-9, Tashkent city",
-  "bookprefereddeal": "O'zingiz yoqtirganingizni tanlang",
-  "makeyourreservation": "O'z joyingizni band qiling"
+  "bestlocationdesc": "Har bir shahardagi eng yaxshi takliflarimizni kashf eting, faqat siz uchun. O'zingiz uchun yangi dunyosni oching va misli ko'rilmagan sarguzashtlar ega bo'ling."
 }

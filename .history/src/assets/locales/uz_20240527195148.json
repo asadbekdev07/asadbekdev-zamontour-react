@@ -13,7 +13,6 @@
   "city.5": "Angliya",
   "city.6": "Kanada",
   "city.7": "Yevropaning Ittifoqi",
-  "city.8": "Parij",
   "weeklyoff": "Eng Yaxshi Haftalik Takliflarimiz",
   "weeklyoffdesc": "Har bir shaharda faqat siz uchun tuzilgan eng yaxshi haftalik takliflarni kashf eting. O'zingizni sarguzashtlar dunyosida his qiling.",
   "checkins": "buyurtmalar",
@@ -23,14 +22,7 @@
   "inc2": "Aviabilet",
   "inc3": "Eng yaxshi manzillar",
   "makeres": "Joy band qilish",
-  "population": {
-    "population": "Aholisi:",
-    "3.3m": "Aholisi: 3,3 million",
-    "1.5m": "Aholisi: 1,5 million",
-    "15.5m": "Aholisi: 15,5 million",
-    "0.07m": "Aholisi: 0,07 million",
-    "2.2m": "Aholisi: 2,2 million"
-  },
+  "population": "Aholisi:",
   "territory": "Maydoni:",
   "avgpr": "O'rtacha narxi:",
   "exploremore": "Batafsil",
@@ -61,18 +53,5 @@
   "dubaidesc": "Dubay - Birlashgan Arab Amirliklaridagi shahar va amirlik, hashamatli xaridlar, ultramodern arxitektura va jonli tungi hayot sahnasi bilan mashhur. Balandligi 830 m bo'lgan Burj Xalifa minorasi osmono'par binolar bilan to'ldirilgan osmon chizig'ida hukmronlik qiladi. Uning etagida musiqaga xoreografiya qilingan samolyotlar va chiroqlar bilan jihozlangan Dubay favvorasi joylashgan. Sun'iy orollarda Atlantis, Palm, suv va dengiz hayvonlari bog'lari joylashgan kurort joylashgan.",
   "antalyadesc": "Antaliya Turkiyaning eng tez rivojlanayotgan shahri bo'lib, butun dunyodan kelgan sayyohlar uning ajoyib plyajlari va an'anaviy turk madaniyatining ajoyib aralashmasini kashf qilmoqdalar. Bolalarga Aqua Land (suvli slaydni yaxshi ko'radiganlar orzusi) va Dolphin Land (delfinlar, dengiz sherlari va oq kitlarning uyi) o'rin olgan Beach Park yoqadi. Eski shahar markazini o'rganing va Hadrian darvozasini ko'ring.",
   "sharmdesc": "Sharm El-Sheyh - Sinay yarim orolidagi sayyohlik markazi bo'lib, unda dunyodagi eng yaxshi sho'ng'in joylari mavjud. Sharm shahrini butunlay boshqa darajaga olib chiqqan Ras Muhammad milliy bog'ining suv osti mo''jizalari. Shaharda Qizil dengiz tubidagi parallel dengiz hayotini kashf qilish uchun dunyoning turli burchaklaridan ilg'or va rekreatsion g'avvoslarni jalb qiladigan sho'ng'in va kema halokat joylari mavjud.",
-  "istanbuldesc": "Istanbul Turkiyaning eng gavjum shahri va uning madaniy, iqtisodiy va tarixiy markazidir. U Turkiyaning shimoli-g'arbiy qismida joylashgan bo'lib, Marmara va Qora dengizni bog'laydigan Bosfor bo'g'ozi orqali Yevropa va Osiyo tomoniga bo'linadi. Bu ikki qit'ada joylashgan dunyodagi yagona shahar.",
-  "million": "million",
-  "km": "km²",
-  "direction": "Qiziqarlimi?",
-  "visitheading": "Shaharlardan Biriga Hoziroq Tashrif Buyuring",
-  "visitdesc": "Har bir shahardagi eng yaxshi takliflarimizni kashf eting, faqat siz uchun. O'zingiz uchun yangi dunyosni oching va misli ko'rilmagan sarguzashtlar ega bo'ling.",
-  "bestlocation": "Eng Yaxshi Manzillar",
-  "bestlocationdesc": "Har bir shahardagi eng yaxshi takliflarimizni kashf eting, faqat siz uchun. O'zingiz uchun yangi dunyosni oching va misli ko'rilmagan sarguzashtlar ega bo'ling.",
-  "makephonecall": "Telefon raqam",
-  "contactviaemail": "Email orqali bog'laning",
-  "visitouroffices": "Ofisimizga tashrif buyuring",
-  "address": "15/25, Chilanzar-9, Tashkent city",
-  "bookprefereddeal": "O'zingiz yoqtirganingizni tanlang",
-  "makeyourreservation": "O'z joyingizni band qiling"
+  "istanbuldesc": "Стамбул - самый населенный город в Турции и его культурный, экономический и исторический центр. Расположенный в северо-западной части Турции, разделенный Босфором на европейскую и азиатскую стороны, который соединяет Мраморное море и Черное море. Этот город единственный в мире, который находится на двух континентах."
 }

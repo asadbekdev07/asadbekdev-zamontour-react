@@ -10,18 +10,18 @@ const Visit = () => {
   const { t } = useLocalization();
 
   const visitData = [
-    { img: dubai, city: t('city.1'), country: t('uae'), description: t('dubaidesc'), population: " 3.3", territory: " 35", avgPrice: " $425.000" },
-    { img: antalya, city: t('city.2'), country: t('turkey'), description: t('antalyadesc'), population: " 1.5", territory: " 1.417", avgPrice: " $1.100.200" },
-    { img: sharm, city: t('city.3'), country: t('egypt'), description: t('sharmdesc'), population: " 0.07", territory: " 45", avgPrice:" $165.45" },
-    { img: istanbul, city: t('city.0'), country: t('turkey'), description: t('istanbuldesc'), population: " 15.5", territory: " 5.461", avgPrice: " $946.000"}
+    { img: dubai, city: t('city.1'), country: t('uae'), description: t('dubaidesc'), population: " 3.3 million", territory: " 35", avgPrice: " $425.000" },
+    { img: antalya, city: t('city.2'), country: t('turkey'), description: t('antalyadesc'), population: " 1.5 million", territory: " 1.417", avgPrice: " $1.100.200" },
+    { img: sharm, city: t('city.3'), country: t('egypt'), description: t('sharmdesc'), population: " 0.07 million", territory: " 45", avgPrice:" $165.45" },
+    { img: istanbul, city: t('city.0'), country: t('turkey'), description: t('istanbuldesc'), population: " 15.5 million", territory: " 5.461", avgPrice: " $946.000"}
   ];
 
   return (
     <section className="visit">
       <div className="container">
       <div className="visit__content">
-        <h2 className="visit__heading">{t('visitheading')}</h2>
-        <p className="visit__description">{t('visitdesc')}</p>
+        <h2 className="visit__heading">Visit One Of Our Countries Now</h2>
+        <p className="visit__description">Discover the best offers in each city, curated just for you. Immerse yourself in a world of savings and indulge in unparalleled experiences.</p>
       </div>
 
       <ul className="visit__list">
@@ -37,13 +37,13 @@ const Visit = () => {
             <p className="visit__inner-description">{visit.description}</p>
 
             <ul className="visit__info">
-              <li><i className="fa fa-user"></i>{visit.population} {t('million')}</li>
+              <li><i className="fa fa-user"></i>{visit.population}</li>
               <li><i className="fa fa-globe"></i>{visit.territory}{t('km')}</li>
               <li><i className="fa fa-home"></i>{visit.avgPrice}</li>
             </ul>
 
             <div>
-              <a className="button--arrow" href="#contact">{t('direction')} <i className="fa fa-arrow-right"></i></a>
+              <a className="button--arrow" href="#contact">Need Directions ? <i className="fa fa-arrow-right"></i></a>
             </div>
             </div>
           </li>

@@ -20,8 +20,8 @@ const Visit = () => {
     <section className="visit">
       <div className="container">
       <div className="visit__content">
-        <h2 className="visit__heading">{t('visitheading')}</h2>
-        <p className="visit__description">{t('visitdesc')}</p>
+        <h2 className="visit__heading">Visit One Of Our Countries Now</h2>
+        <p className="visit__description">Discover the best offers in each city, curated just for you. Immerse yourself in a world of savings and indulge in unparalleled experiences.</p>
       </div>
 
       <ul className="visit__list">

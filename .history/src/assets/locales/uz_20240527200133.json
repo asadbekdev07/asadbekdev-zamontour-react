@@ -13,7 +13,6 @@
   "city.5": "Angliya",
   "city.6": "Kanada",
   "city.7": "Yevropaning Ittifoqi",
-  "city.8": "Parij",
   "weeklyoff": "Eng Yaxshi Haftalik Takliflarimiz",
   "weeklyoffdesc": "Har bir shaharda faqat siz uchun tuzilgan eng yaxshi haftalik takliflarni kashf eting. O'zingizni sarguzashtlar dunyosida his qiling.",
   "checkins": "buyurtmalar",
@@ -23,14 +22,7 @@
   "inc2": "Aviabilet",
   "inc3": "Eng yaxshi manzillar",
   "makeres": "Joy band qilish",
-  "population": {
-    "population": "Aholisi:",
-    "3.3m": "Aholisi: 3,3 million",
-    "1.5m": "Aholisi: 1,5 million",
-    "15.5m": "Aholisi: 15,5 million",
-    "0.07m": "Aholisi: 0,07 million",
-    "2.2m": "Aholisi: 2,2 million"
-  },
+  "population": "Aholisi:",
   "territory": "Maydoni:",
   "avgpr": "O'rtacha narxi:",
   "exploremore": "Batafsil",
@@ -65,14 +57,6 @@
   "million": "million",
   "km": "km²",
   "direction": "Qiziqarlimi?",
-  "visitheading": "Shaharlardan Biriga Hoziroq Tashrif Buyuring",
-  "visitdesc": "Har bir shahardagi eng yaxshi takliflarimizni kashf eting, faqat siz uchun. O'zingiz uchun yangi dunyosni oching va misli ko'rilmagan sarguzashtlar ega bo'ling.",
-  "bestlocation": "Eng Yaxshi Manzillar",
-  "bestlocationdesc": "Har bir shahardagi eng yaxshi takliflarimizni kashf eting, faqat siz uchun. O'zingiz uchun yangi dunyosni oching va misli ko'rilmagan sarguzashtlar ega bo'ling.",
-  "makephonecall": "Telefon raqam",
-  "contactviaemail": "Email orqali bog'laning",
-  "visitouroffices": "Ofisimizga tashrif buyuring",
-  "address": "15/25, Chilanzar-9, Tashkent city",
-  "bookprefereddeal": "O'zingiz yoqtirganingizni tanlang",
-  "makeyourreservation": "O'z joyingizni band qiling"
+  "visitheading": "Visit One Of Our Countries Now",
+  "visitdesc": "Discover the best offers in each city, curated just for you. Immerse yourself in a world of savings and indulge in unparalleled experiences."
 }

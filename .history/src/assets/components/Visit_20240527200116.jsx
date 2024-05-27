@@ -21,7 +21,7 @@ const Visit = () => {
       <div className="container">
       <div className="visit__content">
         <h2 className="visit__heading">{t('visitheading')}</h2>
-        <p className="visit__description">{t('visitdesc')}</p>
+        <p className="visit__description">{t('visitdescr')}</p>
       </div>
 
       <ul className="visit__list">
