@@ -15,7 +15,6 @@
   "city.7": "Yevropaning Ittifoqi",
   "city.8": "Parij",
   "city.9": "Kuala Lumpur",
-  "city.10": "Yevropa",
   "weeklyoff": "Eng Yaxshi Haftalik Takliflarimiz",
   "weeklyoffdesc": "Har bir shaharda faqat siz uchun tuzilgan eng yaxshi haftalik takliflarni kashf eting. O'zingizni sarguzashtlar dunyosida his qiling.",
   "checkins": "buyurtmalar",
@@ -45,7 +44,6 @@
   "japan": "Yaponiya",
   "saudia": "Saudiya Arabistoni",
   "oman": "Ummon",
-  "country": "Mamlakat",
   "benefits": "Bizning xizmatlar o'z ichiga oladi:",
   "best": "Eng arzon vaqtlar",
   "short": "Tezkor ishlash vaqti",
@@ -85,8 +83,5 @@
   "checkindate": "Uchish sanasi",
   "choosedestination": "Manzilingizni tanlang",
   "choosevisa": "Viza turini tanlang",
-  "makeresnow": "Band qilish",
-  "areyoulookingtravel": "Sayohat qilishni xohlaysizmi?",
-  "makeclickbutton": "Unda biz bilan hoziroq bog'laning",
-  "allrights": "Barcha huquqlar himoyalangan."
+  "makeresnow": "Band qilish"
 }

@@ -1,6 +1,6 @@
 // localization.js
 import React, { createContext, useContext, useState } from 'react';
-import { useTranslation, Trans as I18nextTrans } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 
 const LocalizationContext = createContext();
 

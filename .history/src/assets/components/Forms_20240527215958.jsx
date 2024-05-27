@@ -1,6 +1,5 @@
 import React from 'react';
-import { useLocalization } from '../../localization';
-import { Trans } from 'react-i18next';
+import { useLocalization, Trans } from '../../localization';
 
 const Forms = () => {
 
@@ -12,7 +11,7 @@ const Forms = () => {
         <div className="forms__container">
           <form id="form__reservation" name="form" method="post" action="#">
             <h3 className="form__heading">
-            <Trans i18nKey="formheading" components={{ em: <em /> }} />
+              {t('formheading')}
             </h3>
             <div className="form__flex">
               <div className="form__flex-grow">
@@ -75,25 +74,26 @@ const Forms = () => {
               <select name="destination" className="form__field" aria-label="Choose your destination" id="chooseDestination">
                 <option value="Antalya" selected>{t('city.2')}</option>
                 <option value="Istanbul">{t('city.0')}</option>
-                <option value="Dubai">{t('city.1')}</option>
-                <option value="Sharm El-Sheikh">{t('city.3')}</option>
-                <option value="Kuala Lumpur">{t('city.9')}</option>
-                <option value="Canada">{t('city.6')}</option>
-                <option value="England">{t('city.5')}</option>
+                <option value="Dubai">Dubai</option>
+                <option value="Sharm El-Sheikh">Sharm El-Sheikh</option>
+                <option value="Kuala Lumpur">Kuala Lumpur</option>
+                <option value="Canada">Canada</option>
+                <option value="England">England</option>
               </select>
             </fieldset>
             <fieldset className="form__column">
               <label htmlFor="visa" className="form__label">{t('choosevisa')}</label>
               <select name="country" className="form__field" aria-label="Choose your visa support" id="visa">
-                <option value="" disabled selected>{t('country')}</option>
-                <option value="USA">{t('city.4')}</option>
-                <option value="Europe">{t('city.10')}</option>
-                <option value="England">{t('city.5')}</option>
-                <option value="Japan">{t('japan')}</option>
-                <option value="Oman">{t('oman')}</option>
-                <option value="Saudi Arabia">{t('saudia')}</option>
-                <option value="India">{t('india')}</option>
-                <option value="China">{t('china')}</option>
+                <option value="" disabled selected>Country</option>
+                <option value="USA">USA</option>
+                <option value="Europe">Europe</option>
+                <option value="England">England</option>
+                <option value="Japan">Japan</option>
+                <option value="Oman">Oman</option>
+                <option value="Saudi Arabia">Saudi Arabia</option>
+                <option value="India">India</option>
+                <option value="China">China</option>
+                <option value="HongKong">Hong Kong</option>
               </select>
             </fieldset>
             <fieldset className="form__column">

@@ -1,6 +1,5 @@
 import React from 'react';
-import { useLocalization } from '../../localization';
-import { Trans } from 'react-i18next';
+import { useLocalization, Trans } from '../../localization';
 
 const Forms = () => {
 
@@ -85,7 +84,7 @@ const Forms = () => {
             <fieldset className="form__column">
               <label htmlFor="visa" className="form__label">{t('choosevisa')}</label>
               <select name="country" className="form__field" aria-label="Choose your visa support" id="visa">
-                <option value="" disabled selected>{t('country')}</option>
+                <option value="" disabled selected>Country</option>
                 <option value="USA">{t('city.4')}</option>
                 <option value="Europe">{t('city.10')}</option>
                 <option value="England">{t('city.5')}</option>

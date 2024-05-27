@@ -1,6 +1,5 @@
 import React from 'react';
-import { useLocalization } from '../../localization';
-import { Trans } from 'react-i18next';
+import { useLocalization, Trans } from '../../localization';
 
 const Forms = () => {
 

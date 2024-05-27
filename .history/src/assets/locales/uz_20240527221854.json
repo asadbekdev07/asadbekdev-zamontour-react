@@ -45,7 +45,6 @@
   "japan": "Yaponiya",
   "saudia": "Saudiya Arabistoni",
   "oman": "Ummon",
-  "country": "Mamlakat",
   "benefits": "Bizning xizmatlar o'z ichiga oladi:",
   "best": "Eng arzon vaqtlar",
   "short": "Tezkor ishlash vaqti",
@@ -85,8 +84,5 @@
   "checkindate": "Uchish sanasi",
   "choosedestination": "Manzilingizni tanlang",
   "choosevisa": "Viza turini tanlang",
-  "makeresnow": "Band qilish",
-  "areyoulookingtravel": "Sayohat qilishni xohlaysizmi?",
-  "makeclickbutton": "Unda biz bilan hoziroq bog'laning",
-  "allrights": "Barcha huquqlar himoyalangan."
+  "makeresnow": "Band qilish"
 }

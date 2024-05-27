@@ -14,8 +14,6 @@
   "city.6": "Canada",
   "city.7": "European Union",
   "city.8": "Paris",
-  "city.9": "Kuala Lumpur",
-  "city.10": "Europe",
   "weeklyoff": "Best Weekly Offers In Each City",
   "weeklyoffdesc": "Discover the best weekly offers in each city, curated just for you. Immerse yourself in a world of savings and indulge in unparalleled experiences.",
   "checkins": "Check Ins",
@@ -45,7 +43,6 @@
   "japan": "Japan",
   "saudia": "Saudia Arabia",
   "oman": "Oman",
-  "country": "Country",
   "benefits": "Benefits of our Visa Support service:",
   "best": "Best Prices",
   "short": "Short Processing Time",
@@ -85,8 +82,5 @@
   "checkindate": "Check In Date",
   "choosedestination": "Choose Your Destination",
   "choosevisa": "Choose Your Visa Support",
-  "makeresnow": "Make Your Reservation Now",
-  "areyoulookingtravel": "Are you looking to travel?",
-  "makeclickbutton": "Make A Reservation By Clicking The Button",
-  "allrights": "All rights reserved."
+  "makeresnow": "Make Your Reservation Now"
 }

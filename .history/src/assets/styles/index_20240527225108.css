@@ -197,8 +197,7 @@ select:-webkit-autofill:focus {
 .site-header {
   position: fixed;
   z-index: 20000;
-  width: 100%;
-  padding: 10px 20px;
+  padding: 15px 20px;
   background-color: var(--primary-color);
 }
 
