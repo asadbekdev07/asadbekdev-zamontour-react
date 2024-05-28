@@ -11,6 +11,10 @@ const SiteHeader = () => {
     setIsMenuOpen(prevState => !prevState);
   };
 
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   const { t, changeLanguage, currentLanguage } = useLocalization();
 
   return (
@@ -23,51 +27,41 @@ const SiteHeader = () => {
         <div className="site-header__sitenav">
           <nav className="sitenav">
             <ul className="sitenav__list">
-              {/* ITEM  */}
               <li className="sitenav__item">
-                <a className='sitenav__link' href="#">{t('home')}</a>
+                <a className='sitenav__link' href="#" onClick={closeMenu}>{t('home')}</a>
               </li>
-              {/* ITEM  */}
               <li className="sitenav__item">
-                <a className='sitenav__link' href="#about">{t('about')}</a>
+                <a className='sitenav__link' href="#about" onClick={closeMenu}>{t('about')}</a>
               </li>
-              {/* ITEM  */}
               <li className="sitenav__item">
-                <a className='sitenav__link' href="#tours">{t('tours')}</a>
+                <a className='sitenav__link' href="#tours" onClick={closeMenu}>{t('tours')}</a>
               </li>
-              {/* ITEM  */}
               <li className="sitenav__item">
-                <a className='sitenav__link' href="#contacts">{t('contacts')}</a>
+                <a className='sitenav__link' href="#contacts" onClick={closeMenu}>{t('contacts')}</a>
               </li>
             </ul>
           </nav>
 
           <ul className="lang">
-            {/* ITEM  */}
-            <ul className="lang">
-              <li className='lang__item'>
-                <a className={`lang__link ${currentLanguage === 'en' ? 'selected' : ''}`} onClick={() => changeLanguage('en')}>EN</a>
-              </li>
-              <li className='lang__item'>
-                <a className={`lang__link ${currentLanguage === 'uz' ? 'selected' : ''}`} onClick={() => changeLanguage('uz')}>UZ</a>
-              </li>
-              <li className='lang__item'>
-                <a className={`lang__link ${currentLanguage === 'ru' ? 'selected' : ''}`} onClick={() => changeLanguage('ru')}>RU</a>
-              </li>
-            </ul>
-
+            <li className='lang__item'>
+              <a className={`lang__link ${currentLanguage === 'en' ? 'selected' : ''}`} onClick={() => { changeLanguage('en'); closeMenu(); }}>EN</a>
+            </li>
+            <li className='lang__item'>
+              <a className={`lang__link ${currentLanguage === 'uz' ? 'selected' : ''}`} onClick={() => { changeLanguage('uz'); closeMenu(); }}>UZ</a>
+            </li>
+            <li className='lang__item'>
+              <a className={`lang__link ${currentLanguage === 'ru' ? 'selected' : ''}`} onClick={() => { changeLanguage('ru'); closeMenu(); }}>RU</a>
+            </li>
           </ul>
 
           <ul className="social">
-            {/* ITEM  */}
             <li className="social__item">
-              <a className='social__link' href="https://www.instagram.com/zamontour/" target="_blank" rel="noopener noreferrer">
+              <a className='social__link' href="https://www.instagram.com/zamontour/" target="_blank" rel="noopener noreferrer" onClick={closeMenu}>
                 <i className="fa-brands fa-instagram social__icon"></i>
               </a>
             </li>
-            {/* ITEM  */}
             <li className="social__item">
-              <a className='social__link' href="https://t.me/zamonbiznestour" target="_blank" rel="noopener noreferrer">
+              <a className='social__link' href="https://t.me/zamonbiznestour" target="_blank" rel="noopener noreferrer" onClick={closeMenu}>
                 <i className="fa-brands fa-telegram social__icon"></i>
               </a>
             </li>
