@@ -6,7 +6,7 @@ import enLang from './assets/locales/en.json'
 import uzLang from './assets/locales/uz.json'
 import ruLang from './assets/locales/ru.json'
 
-const language = localStorage.getItem('i18nextLng') || en
+const language = localStorage.getItem('i18nextLng') || 'en'
 
 i18n
 .use(Backend)
