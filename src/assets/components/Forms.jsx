@@ -1,18 +1,69 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLocalization } from '../../localization';
 import { Trans } from 'react-i18next';
 
 const Forms = () => {
-
   const { t } = useLocalization();
+  const [statusMessage, setStatusMessage] = useState("");
+
+  const telegramTokenBot = "6913787807:AAFBNLiHn-ysNkKEh-bCjIiWCwBDIiqdVLY";
+  const chatId = "6726160029";
+
+  const messages = {
+    loading: "Loading...",
+    success: "We're deeply grateful you've entrusted your travel plans to our agency.",
+    failure: "Something went wrong"
+  };
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    setStatusMessage(messages.loading);
+
+    const formData = new FormData(event.target);
+    const object = {};
+    formData.forEach((value, key) => {
+      object[key] = value;
+    });
+
+    try {
+      const response = await fetch(`https://api.telegram.org/bot${telegramTokenBot}/sendMessage`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          chat_id: chatId,
+          text: `
+          Name: ${object.name},
+          Phone: ${object.number},
+          Guests: ${object.guests},
+          Date: ${object.date},
+          Destination: ${object.destination},
+          Country: ${object.country},
+          `
+        }),
+      });
+
+      if (response.ok) {
+        setStatusMessage(messages.success);
+        event.target.reset();
+      } else {
+        setStatusMessage(messages.failure);
+      }
+    } catch (error) {
+      setStatusMessage(messages.failure);
+    } finally {
+      setTimeout(() => {
+        setStatusMessage("");
+      }, 10000);
+    }
+  };
 
   return (
     <section className="forms">
       <div className="container">
         <div className="forms__container">
-          <form id="form__reservation" name="form" method="post" action="#">
+          <form id="form__reservation" name="form" method="post" action="#" onSubmit={handleSubmit}>
             <h3 className="form__heading">
-            <Trans i18nKey="formheading" components={{ em: <em /> }} />
+              <Trans i18nKey="formheading" components={{ em: <em /> }} />
             </h3>
             <div className="form__flex">
               <div className="form__flex-grow">
@@ -100,6 +151,11 @@ const Forms = () => {
               <button type="submit" className="button button--form">{t('makeresnow')}</button>
             </fieldset>
           </form>
+          {statusMessage && (
+            <div style={{ color: '#22b3c1', textAlign: 'center', fontSize: '20px', marginTop: '10px' }}>
+              {statusMessage}
+            </div>
+          )}
         </div>
       </div>
     </section>
